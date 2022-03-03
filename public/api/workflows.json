@@ -1,0 +1,31 @@
+{
+    "data": [
+      {
+        "type": "workflows",
+        "id": "1",
+        "attributes": {
+          "name": "TalentCloud Example",
+          "description": "Sample TOD Workflow example",
+          "type": "TalentCloud"
+        }
+      },
+      {
+        "type": "workflows",
+        "id": "2",
+        "attributes": {
+          "name": "Recruintg Workflow",
+          "description": "Sample Recruiting Workflow example",
+          "type": "RecruitingCloud"
+        }
+      },
+      {
+        "type": "workflows",
+        "id": "3",
+        "attributes": {
+          "name": "Talent Cloud Workflow",
+          "description": "Sample 2 Workflow example",
+          "type": "TalentCloud"
+        }
+      }
+    ]
+}  
