@@ -42,9 +42,4 @@ export default class WorkflowsController extends Controller {
 
     return result
   } 
-
-  /*
-  @filterBy('data', 'type', 'TalentCloud') talentCloud;
-  @filterBy('data', 'type', 'RecruitingCloud') recruitingCloud;
-*/
 }
