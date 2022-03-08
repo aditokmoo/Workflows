@@ -8,4 +8,5 @@ export default class Router extends EmberRouter {
 
 Router.map(function () {
   this.route('workflows', { path: '/' });
+  this.route('item', { path: '/item/:item_id' });
 });

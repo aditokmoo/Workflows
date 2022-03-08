@@ -1,11 +1,4 @@
-<!-- All Workflows -->
-<div class="workflows">
-    {{#each @model as |data|}}
-        <Workflows @workflows={{data}} />
-    {{/each}}
-
-<!-- TalentCloud Workflows -->
-    {{#each this.talentCloud as |item|}}
-        <Workflows @talentCloud={{item}} />
-    {{/each}}
-</div>
+<Table>
+    <Talentcloud @talent={{this.sortTalent}} />
+    <Recruitingcloud @recruit={{this.sortRecruit}} />
+</Table>

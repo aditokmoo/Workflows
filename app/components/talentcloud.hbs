@@ -1,0 +1,32 @@
+<tbody class="bg-white">
+    <h2 class="p-5 text-blue-custom">TalentCloud Workflows</h2>
+        {{#each @talent as |item|}}   
+            <tr class="talent">
+                <td class="p-2">
+                    <div class="flex items-center">
+                        <div class="ml-4">
+                            <LinkTo @route="item" @model={{item}} class="text-grey-h3-custom no-underline">{{item.name}}</LinkTo>
+                            <div class="text-sm text-grey-div-custom py-1">{{item.description}}</div>
+                        </div>
+                    </div>
+                </td>
+                <td class="px-6 py-4">
+                    <span class="py-2 px-4 border border-green-light rounded">Default</span>
+                </td>
+                <td class="px-6 py-4 whitespace-nowrap">
+                    <span class="px-2 inline-flex">6 TalentClouds</span>
+                </td>
+                <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                    <a href="#" class="p-2 border rounded-l no-underline text-grey">
+                        <i class="fa fa-pen"></i>
+                    </a>
+                    <a href="#" class="p-2 border no-underline text-grey">
+                        <i class="fa fa-archive"></i>
+                    </a>
+                    <a href="#" class="py-2 px-3 border rounded-r no-underline text-grey">
+                        <i class="fa fa-ellipsis-v"></i>
+                    </a>
+                </td>
+            </tr>
+        {{/each}}
+</tbody>
