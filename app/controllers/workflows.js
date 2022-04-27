@@ -5,12 +5,7 @@ export default class WorkflowsController extends Controller {
     const data = this.model;
 
     const result = data.map((item) => {
-      
-      if (item.type === 'TalentCloud') {
-        return item
-      } else {
-        return item
-      }
+      return item;
     }).filter(function talent(item) {
       if(item.type === 'TalentCloud') {
         return true
@@ -26,12 +21,7 @@ export default class WorkflowsController extends Controller {
     const data = this.model;
 
     const result = data.map((item) => {
-      
-      if (item.type === 'RecruitingCloud') {
-        return item
-      } else {
-        return item
-      }
+      return item;
     }).filter(function recruit(item) {
       if(item.type === 'RecruitingCloud') {
         return true
